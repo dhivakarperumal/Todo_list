@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:#eee ;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#box
+{
+    margin-left: 400px;
+    margin-top: 80px;
+    background-color: rgb(117, 107, 86);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: solid 5px white;
+    
+}
+.val
+{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(180, 50, 100);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px;
+}
+#box input
+{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 350px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+    border: none;
+    font-weight: bolder;
+}
+#box button
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    outline: none;
+}
+#myList
+{
+    margin-top: 30px;
+    padding-left:35px ;
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
